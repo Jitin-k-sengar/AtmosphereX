@@ -89,9 +89,6 @@ def Current_weather(city_name):
         print("\n")
         input(Fore.RED + "Press Enter to  continue...")
 
-        
-
-    
 
 while True:
     clear_screen()
