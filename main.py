@@ -18,8 +18,8 @@ def input_city():
 
 def Options():
     print(Fore.MAGENTA + "1. Current Weather Forecast")
-    print(Fore.MAGENTA +  "2. 5-Day Forecast")
-    print(Fore.MAGENTA  + "3. Air Pollution Forecast")
+    print(Fore.MAGENTA + "2. 5-Days Forecast")
+    print(Fore.MAGENTA + "3. Air Pollution Forecast")
     print(Fore.MAGENTA + "4. Exit\n")
     Choice = input(Fore.GREEN +  "Enter your choice: ")
     return  Choice
