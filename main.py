@@ -1,5 +1,4 @@
-from Logo.logo import display_logo
-from Logo.logo2 import display_logo2
+from logo import display_logo
 from colorama import Fore
 from dotenv import load_dotenv
 from datetime import datetime, timezone, timedelta
@@ -49,7 +48,7 @@ def Current_weather(city_name):
     response = requests.get(f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={api_key}")
     if  response.status_code == 200:
         clear_screen()
-        display_logo2()
+        display_logo()
         data = response.json()
         
         weather = data['weather']
