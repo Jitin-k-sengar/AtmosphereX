@@ -14,35 +14,16 @@ User -Friendly Interface: The application includes a simple command-line interfa
     - colorama
     - python-dotenv
 
-# Setup Instructions
-Clone the repository:
+# Usage
+Upon running the application, you will see a logo and a menu with the following options:
 
----------------------------------
-git clone <repository-url>
-cd <repository-directory>
----------------------------------
-Install the required libraries:
-
-bash
-Insert Code
-Edit
-Copy code
-pip install requests colorama python-dotenv
-Create a .env file in the root directory of the project and add your OpenWeatherMap API key:
-
-Insert Code
-Edit
-Copy code
-API_KEY=your_api_key_here
-Run the application:
-
-bash
-Insert Code
-Edit
-Copy code
-python main.py
-# For Current Weather Forecasting
+1. Current Weather Forecast
+2. 5-Days Forecast
+3. Air Pollution Forecast
+4. Exit
 ![image](https://github.com/user-attachments/assets/e8efa5e4-ff88-4376-a904-4a27a45050aa)
+Select an option by entering the corresponding number and follow the prompts to enter the desired location.
 ![image](https://github.com/user-attachments/assets/7121ecc3-e80d-4a47-89c0-ef42c776c005)
+
 
 
