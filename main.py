@@ -71,7 +71,7 @@ def Current_weather(city_name):
         Sunset = unix_to_ist(sun['sunset'])
 
         print("\n")
-        print(Fore.BLUE + f"Location : {city_name}  |  Date :  {datetime.now().strftime('%d %b %y')}  |  Time : {datetime.now().strftime('%I:%M %p')}")
+        print(Fore.WHITE + f"Location : {city_name}  |  Date :  {datetime.now().strftime('%d %b %y')}  |  Time : {datetime.now().strftime('%I:%M %p')}")
         print("\n")
         print(Fore.BLUE + f"Weather Condition : {weather_condition}")
         print(Fore.BLUE + f"Temperature       : {Temperature}°C")
@@ -88,6 +88,38 @@ def Current_weather(city_name):
         print("\n")
         input(Fore.RED + "Press Enter to  continue...")
 
+def forecast(city_name):
+    response = requests.get(f"https://api.openweathermap.org/data/2.5/forecast?q={city_name}&appid={api_key}")
+    def get_date_in_n_days(n):
+        today = date.today()
+        future_date = today + timedelta(days=n)
+        return future_date.strftime("%d %b %Y")  # Format the date
+    if  response.status_code == 200:
+        clear_screen()
+        display_logo()
+        data = response.json()
+        Todays_Date = datetime.now().strftime('%d')
+        Timing = ["12:00 AM","03:00 AM","06:00 AM","09:00 AM","12:00 PM","03:00 PM","06:00 PM","09:00 PM"]
+        Dates = []
+        for i in range(0,6):
+            Dates.append(get_date_in_n_days(i))
+        
+        total = len(data['list'])
+        
+        weather = data['weather']
+        weather_main = data['main']
+        wind = data['wind']
+        clouds = data['clouds']
+        sun = data['sys']
+        
+        for i in range(6):
+            if i==1:
+                for j in range(4):
+                    for k in range(total):
+                        
+            
+        
+        
 
 while True:
     clear_screen()
