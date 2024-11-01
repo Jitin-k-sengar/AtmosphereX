@@ -14,6 +14,24 @@ User -Friendly Interface: The application includes a simple command-line interfa
     - colorama
     - python-dotenv
 
+# Setup Instructions
+1. Clone the repository:
+
+    git clone <repository-url>
+    cd <repository-directory>
+    
+2. Install the required libraries:
+
+    pip install requests colorama python-dotenv
+   
+3. Create a .env file in the root directory of the project and add your OpenWeatherMap API key:
+
+    API_KEY=your_api_key_here
+   
+4. Run the application:
+    python main.py
+
+
 # Usage
 Upon running the application, you will see a logo and a menu with the following options:
 
