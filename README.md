@@ -14,23 +14,6 @@ User -Friendly Interface: The application includes a simple command-line interfa
     - colorama
     - python-dotenv
 
-# Setup Instructions
-1. Clone the repository:
-2.     git clone <repository-url>
-3.     cd <repository-directory>
-    
-4. Install the required libraries:
-
-    pip install requests colorama python-dotenv
-   
-5. Create a .env file in the root directory of the project and add your OpenWeatherMap API key:
-
-    API_KEY=your_api_key_here
-   
-6. Run the application:
-    python main.py
-
-
 # Usage
 Upon running the application, you will see a logo and a menu with the following options:
 
@@ -45,5 +28,16 @@ Select an option by entering the corresponding number and follow the prompts to 
 
 ![image](https://github.com/user-attachments/assets/7121ecc3-e80d-4a47-89c0-ef42c776c005)
 
+
+# Example Commands
+ To get the current weather for New York:
+
+     Enter your choice: 1
+     Enter the Location: New York
+
+To check air pollution in Los Angeles:
+
+     Enter your choice: 3
+     Enter the Location: Los Angeles
 
 
