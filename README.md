@@ -22,11 +22,11 @@ Upon running the application, you will see a logo and a menu with the following 
 3. Air Pollution Forecast
 4. Exit
 
-    ![image](https://github.com/user-attachments/assets/e8efa5e4-ff88-4376-a904-4a27a45050aa)
+![image](https://github.com/user-attachments/assets/e8efa5e4-ff88-4376-a904-4a27a45050aa)
 
 Select an option by entering the corresponding number and follow the prompts to enter the desired location.
 
-    ![image](https://github.com/user-attachments/assets/7121ecc3-e80d-4a47-89c0-ef42c776c005)
+![image](https://github.com/user-attachments/assets/7121ecc3-e80d-4a47-89c0-ef42c776c005)
 
 
 
