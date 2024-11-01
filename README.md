@@ -40,4 +40,14 @@ To check air pollution in Los Angeles:
      Enter your choice: 3
      Enter the Location: Los Angeles
 
+# Error Handling
+If the application encounters an invalid location or there is no internet connection, it will display an appropriate error message.
 
+# License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+# Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any feature requests or bug reports.
+
+# Contact
+For any inquiries or support, please contact the project maintainer at [jitin.k.sengar@gmail.com].
