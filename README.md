@@ -30,15 +30,29 @@ Select an option by entering the corresponding number and follow the prompts to 
 
 
 # Example Commands
- To get the current weather for New York:
+ To get the current weather for Delhi:
 
      Enter your choice: 1
-     Enter the Location: New York
+     Enter the Location: Delhi
 
-To check air pollution in Los Angeles:
+ ![image](https://github.com/user-attachments/assets/0f3a3e5e-74a7-48b4-823c-9ad94a9e8214)
+
+
+ To check the 5 days forecast
+
+     Enter your choice: 2
+     Enter the Location: Delhi
+
+ ![image](https://github.com/user-attachments/assets/9b016f6f-ec3f-41a7-9797-dfce8d703479)
+
+
+ To check air pollution in Delhi:
 
      Enter your choice: 3
-     Enter the Location: Los Angeles
+     Enter the Location: Delhi
+
+ ![image](https://github.com/user-attachments/assets/e9fe2ade-7871-41fc-901d-a4bfda82f638)
+
 
 # Error Handling
 If the application encounters an invalid location or there is no internet connection, it will display an appropriate error message.
