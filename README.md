@@ -50,4 +50,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any feature requests or bug reports.
 
 # Contact
-For any inquiries or support, please contact the project maintainer at [jitin.k.sengar@gmail.com].
+For any inquiries or support, please contact the project maintainer at jitin.k.sengar@gmail.com.
