@@ -37,7 +37,7 @@ Select an option by entering the corresponding number and follow the prompts to 
 
 
 ## Example Commands
- ### To get the current weather for Delhi:
+ To get the current weather for Delhi:
 
      Enter your choice: 1
      Enter the Location: Delhi
@@ -45,7 +45,7 @@ Select an option by entering the corresponding number and follow the prompts to 
  ![image](https://github.com/user-attachments/assets/0f3a3e5e-74a7-48b4-823c-9ad94a9e8214)
 
 
- ### To check the 5 days forecast
+ To check the 5 days forecast
 
      Enter your choice: 2
      Enter the Location: Delhi
@@ -53,7 +53,7 @@ Select an option by entering the corresponding number and follow the prompts to 
  ![image](https://github.com/user-attachments/assets/9b016f6f-ec3f-41a7-9797-dfce8d703479)
 
 
- ### To check air pollution in Delhi:
+ To check air pollution in Delhi:
 
      Enter your choice: 3
      Enter the Location: Delhi
