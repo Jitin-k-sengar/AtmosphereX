@@ -7,7 +7,7 @@ This application provides real-time weather forecasts, 5-day weather predictions
 * 5-Days Forecast:
     - View detailed weather forecasts for the next five days.
 * Air Pollution Forecast:
-    - Check the air quality index and pollution levels for various components like CO, NO2, O3, PM2.5, and PM10.
+    - Check pollution levels for various components like CO, NO2, O3, PM2.5, and PM10.
 * User -Friendly Interface:
     - The application includes a simple command-line interface that guides users through their options.
 
